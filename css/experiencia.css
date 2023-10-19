@@ -1,0 +1,89 @@
+.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  gap: 100px;
+}
+hr {
+  width: 634px;
+  height: 2px;
+  background-color: #e7e7e7;
+  border: 0;
+  margin-bottom: 51px;
+}
+.experiencia-texto {
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 60px;
+  margin-top: -60px;
+}
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+
+  margin-bottom: 20px;
+  border-radius: 4px;
+  width: 779px;
+  height: 257px;
+
+  gap: 10px 20px;
+}
+.empresa::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 128px;
+  background: url(../img/detalhe-from.svg) no-repeat;
+}
+.empresa-ano {
+  font-size: 0.875rem;
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.empresa-titulo {
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 68px;
+  margin: 32px 0px 14px 74px;
+}
+.empresa-texto {
+  margin: 0px 0px 14px 74px;
+
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.empresa-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 200px;
+  width: 30ch;
+}
+.empresa-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  margin: 5px;
+  background-color: #6bbcea;
+  padding: 5px 10px;
+  color: white;
+}

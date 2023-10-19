@@ -1,0 +1,40 @@
+.formacao {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.formacao .subtitulo {
+  display: grid;
+  justify-items: center;
+}
+.faculdade-lista {
+  display: inline;
+}
+.faculdade {
+  background: #f6f6f6;
+  padding: 40px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+.faculdade::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 128px;
+  background: url(../img/detalhe-from.svg) no-repeat;
+  left: -15px;
+}
+.faculdade-tipo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-bottom: 10px;
+}
